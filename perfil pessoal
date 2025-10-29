@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil Pessoal</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      width: 400px;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .foto {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px auto;
+      border: 3px solid #c7a863;
+      box-shadow: 0 0 10px rgba(199, 168, 99, 0.6);
+    }
+
+    .foto img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h2 {
+      color: rgb(199, 99, 174);
+      margin-bottom: 5px;
+    }
+
+    .profissão {
+      font-weight: bold;
+      color: hsl(0, 0%, 33%);
+      margin-bottom: 15px;
+    }
+
+    .descrição {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .skills {
+      margin-bottom: 20px;
+    }
+
+    .skill {
+      display: inline-block;
+      background: #ff00bf;
+      color: aquamarine;
+      padding: 6px 12px;
+      border-radius: 6px;
+      margin: 5px;
+      font-size: 13px;
+    }
+
+    .links a {
+      margin: 0 10px;
+      color: #c7a863;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="foto">
+      <img src="https://raw.githubusercontent.com/JhonnyNob/Trabalho-ATIVIDADE-DE-NOTA-FINAL-NF---DESEN.-WEB-4-0-PONTOS-/refs/heads/main/foto.jhonny.png.jpg"
+        alt="Foto de Jhonny Mello">
+    </div>
+
+    <h2>Jhonny Mello</h2>
+    <p class="profissão">Desenvolvedor Web</p>
+    <p class="descrição">
+      Bom dia! Boa tarde! Boa noite! Meu nome é Jhonny. Criar páginas web é a minha paixão! Adoro proporcionar ao
+      usuário a melhor experiência possível.
+    </p>
+
+    <div class="skills">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">Gamemaker</span>
+    </div>
+
+    <div class="links">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+</body>
+
+</html>
