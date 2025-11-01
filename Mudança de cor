@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang= "pt-BR">
+<head>
+  <title>Questão 3</title>
+  <meta charset="UTF-8">
+</head>
+
+<style>
+body {
+background: #f4f4f9;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+button {
+margin-top: 15px;
+background-color: #c770b7;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 6px;
+}
+</style>
+<body>
+ <button type="button" onclick="Cor()">Arco-iris</button>
+
+ <script>
+
+  const cores = [
+  'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink',
+  'cyan', 'magenta', 'lime', 'teal', 'indigo', 'violet',
+  'gold', 'silver', 'brown', 'coral', 'crimson', 'turquoise',
+  'salmon', 'plum', 'beige', 'lavender', 'khaki', 'navy',
+  'aqua', 'chocolate', 'tomato', 'darkgreen', 'lightblue',
+  'darkred', 'hotpink', 'orangered', 'skyblue', 'seagreen',
+  'mediumslateblue', 'deeppink', 'forestgreen', 'lightcoral',
+  'slategray'];
+  let indice = 0;
+
+    function Cor(){ 
+    document.body.style.backgroundColor=cores[indice];
+    indice++;
+    }
+ </script>
+</body>
+</html>
